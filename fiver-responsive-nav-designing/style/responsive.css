@@ -1,0 +1,25 @@
+/* Laptop */
+@media(min-width : 1024px) {
+    .phone,
+    .tab {
+        display: none;
+    }
+}
+
+/* For Tablet */
+@media(min-width : 521px) and (max-width : 1023px) {
+
+    .phone,
+    .laptop {
+        display: none;
+    }
+}
+
+/* Phone */
+@media (max-width : 520px) {
+
+    .laptop,
+    .tab {
+        display: none;
+    }
+}
